@@ -13,5 +13,6 @@
 		<p>I would also like this to serve as a showcase for potential clients, should I decide to do some freelance work in the future.</p>
 		<h2>Goals</h2>
 		<p>My main goal for this site is to use it as a tool to gain employment somewhere in the web development field.</p>
+		<p>Attracting potential freelance clients with this site is a strong secondary goal.</p>
 	</body>
 </html>
