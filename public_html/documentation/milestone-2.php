@@ -16,22 +16,23 @@
 			time to spend evaluating any one applicant.
 		</p>
 		<p>Doug is in his mid-40s, is very tech savvy, and likes having the latest and greatest in technology.  He owns a
-		Samsung Galaxy S6 Edge, </p>
+		Samsung Galaxy S6 Edge and a new </p>
 		<p>Goal: Mr. Maloney's goal is to determine whether or not this person is a good fit for his company.  He needs to
 			be able to decide whether or not this individual is worthy of advancing to the next step of the hiring process
 			within the span of a couple minutes, and with a very cursory look-over of this site.</p>
 		<h2>Use Case</h2>
 		<ul>
-			<li>list of stuff</li>
+			<li>Doug </li>
 		</ul>
 		<h2>Sitemap</h2>
 		<p>The site will consist of three top-level pages:</p>
 		<ul>
 			<li>Home Page</li>
-			<li>About Me</li>
-			<li>Contact</li>
+			<li>Portfolio</li>
+			<li>About Me/Contact</li>
 		</ul>
-		<p>Home: A brief introduction that states, at minimum, my name and role as a full stack developer</p>
-		<p></p>
+		<p>Home: A brief introduction that states, at minimum, my name and role as a full stack developer, as well as calls to action for the Portfolio and About Me pages</p>
+		<p>Portfolio: a gallery of my completed projects</p>
+		<p>About Me: a written summary of my education and experience (including a list of my core skills), paired with a contact form and links to any social media profiles</p>
 	</body>
 </html>
