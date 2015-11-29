@@ -13,6 +13,7 @@
 		<img src="img/home-mobile.png" alt="Home Layout, Mobile" />
 		<h2>About Me</h2>
 		<h3>Desktop</h3>
+		<img src="img/about-me-desktop.png" alt="Home Layout, Desktop" />
 		<h3>Mobile</h3>
 		<img src="img/about-me-mobile.png" alt="About Me Layout, Mobile" />
 		<h2>Other Notes</h2>
