@@ -27,9 +27,24 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
 				  integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
 				  crossorigin="anonymous"></script>
-		<title>tallninjacoding.com</title>
+		<title>tallninjacoding</title>
 	</head>
 	<body>
+		<header class="content-header">
+			<nav class="navbar">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.php">tallninjacoding</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.php">Home</a></li>
+						<li><a href="#">About Me</a></li>
+						<!--portfolio will go here-->
+					</ul>
+				</div>
+			</nav>
+			<!--need to figure out breakpoints, turn the nav menu into a hamburger on mobile-->
+		</header>
 
 	</body>
 </html>
