@@ -45,6 +45,18 @@
 			</nav>
 			<!--need to figure out breakpoints, turn the nav menu into a hamburger on mobile-->
 		</header>
-
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Bradley Brown</h1>
+				</div>
+			</div>
+			<!--image goes here-->
+			<div class="row">
+				<div class="col-md-12">
+					<p>Full stack web developer, more content here</p>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
