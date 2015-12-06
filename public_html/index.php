@@ -48,13 +48,26 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Bradley Brown</h1>
+					<h1 class="text-center">Bradley Brown</h1>
 				</div>
 			</div>
-			<!--image goes here-->
+			<!--image goes here, only on desktop screens-->
+			<div class="row">
+				<div class="col-md-12 visible-md-block visible-lg-block">
+					<p>Image goes here</p>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<p>Full stack web developer, more content here</p>
+					<p>Full stack web development; responsive designs</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>About Me, this should be a button or something</p>
+				</div>
+				<div class="col-md-6">
+					<p>portfolio, again, button</p>
 				</div>
 			</div>
 		</div>
