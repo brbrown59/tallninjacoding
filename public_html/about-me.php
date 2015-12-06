@@ -1,12 +1,3 @@
-<!--things to fix:
-a. can't get any navbar-rights to appear at extra small sizes
-b. button color locked as-is (not end of world; looks ok)
-c. buttons jammed together in phone view
-d. general spacing issues?
-e. content
-
-minor: hover-over of menu still blue-->
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -67,31 +58,3 @@ minor: hover-over of menu still blue-->
 				</div>
 			</nav>
 		</header>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="text-center">Bradley Brown</h1>
-				</div>
-			</div>
-			<!--image goes here, only on desktop screens-->
-			<div class="row">
-				<div class="col-md-12 visible-md-block visible-lg-block">
-					<img src="http://placekitten.com/g/1200/300" class="img-responsive center-block" alt="Temporary picture of a cat, meow"/>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h3>Full stack web development; responsive, mobile-first designs with something something backend</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-5 col-md-offset-1">
-					<a class="btn btn-default btn-lg center-block" href="#" role="button">About Me</a>
-				</div>
-				<div class="col-md-5">
-					<a class="btn btn-default btn-lg center-block" href="#" role="button">Portfolio</a>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
