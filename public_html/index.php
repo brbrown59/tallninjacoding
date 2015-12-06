@@ -36,14 +36,24 @@
 					<a class="navbar-brand" href="index.php">tallninjacoding</a>
 				</div>
 				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right">
+					<ul class="nav navbar-nav navbar-right visible-md-block visible-lg-block">
 						<li><a href="index.php">Home</a></li>
 						<li><a href="#">About Me</a></li>
+						<li><a href="#">Contact</a></li>
 						<!--portfolio will go here-->
+					</ul>
+					<ul class="nav navbar-nav navbar-right visible-xs-block visible-sm-block">
+						<div class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span><span class="caret"></span></a>
+							<!--not showing up on xs for some reason-->
+							<ul class="dropdown-menu">
+								<li><a href="index.php">Home</a></li>
+								<li><a href="#">About Me</a></li>
+								<li><a href="#">Contact</a></li>
+						</div>
 					</ul>
 				</div>
 			</nav>
-			<!--need to figure out breakpoints, turn the nav menu into a hamburger on mobile-->
 		</header>
 		<div class="container">
 			<div class="row">
@@ -54,7 +64,7 @@
 			<!--image goes here, only on desktop screens-->
 			<div class="row">
 				<div class="col-md-12 visible-md-block visible-lg-block">
-					<p>Image goes here</p>
+					<img src="http://placekitten.com/g/1200/300" class="img-responsive center-block" alt="Temporary picture of a cat, meow"/>
 				</div>
 			</div>
 			<div class="row">
