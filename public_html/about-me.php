@@ -45,15 +45,15 @@
 								aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="index.php" class="menu-item">Home</a></li>
-								<li><a href="#" class="menu-item">About Me</a></li>
-								<li><a href="#" class="menu-item">Contact</a></li>
+								<li><a href="about-me.php" class="menu-item">About Me</a></li>
+								<li><a href="#contact" class="menu-item">Contact</a></li>
 						</div>
 					</ul>
 					<!--standard navbar for desktop-->
 					<ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
 						<li><a href="index.php" class="menu-item">Home</a></li>
 						<li><a href="about-me.php" class="menu-item">About Me</a></li>
-						<li><a href="#" class="menu-item">Contact</a></li>
+						<li><a href="#contact" class="menu-item">Contact</a></li>
 						<!--portfolio will go here-->
 					</ul>
 				</div>
@@ -66,12 +66,20 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-2 col-md-offset-2">
 					<img src="img/headshot.jpg" class="img-responsive center-block" alt="filler picture"/>
 				</div>
 				<div class="col-md-8">
 					<h2 class="text-center">Relevant Skills</h2>
-					<p class="text-center">php, mySQL, JavaScript, angular.js, CSS, HTML5</p>
+					<ul>
+						<li>php</li>
+						<li>Javascript</li>
+						<li>angular.js</li>
+						<li>mySQL</li>
+						<li>CSS</li>
+						<li>HTML5</li>
+						<li>Bootstrap</li>
+					</ul>
 				</div>
 			</div>
 			<div class="row">
@@ -79,6 +87,22 @@
 					<p>In-depth stuff about me (CS degree, bootcamp, rough summary of my abilities, etc)</p>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 id="contact">Contact</h2>
+				</div>
+			</div>
+			<form>
+				<div class="form-group">
+					<label for="emailform">Email address</label>
+					<input type="email" class="form-control" id="emailform" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<label for="messagefield">Message</label>
+					<textarea class="form-control" id="messagefield" rows="3" placeholder="Message"></textarea>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
 		</div>
 	</body>
 </html>

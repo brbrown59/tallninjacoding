@@ -5,6 +5,8 @@ c. buttons jammed together in phone view
 d. general spacing issues?
 e. content
 f. get a better picture of me
+g. make forms smaller?
+h. footer?
 
 minor: hover-over of menu still blue-->
 
@@ -54,15 +56,15 @@ minor: hover-over of menu still blue-->
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="index.php" class="menu-item">Home</a></li>
-								<li><a href="#" class="menu-item">About Me</a></li>
-								<li><a href="#" class="menu-item">Contact</a></li>
+								<li><a href="about-me.php" class="menu-item">About Me</a></li>
+								<li><a href="about-me.php#contact" class="menu-item">Contact</a></li>
 						</div>
 					</ul>
 					<!--standard navbar for desktop-->
 					<ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
 						<li><a href="index.php" class="menu-item">Home</a></li>
 						<li><a href="about-me.php" class="menu-item">About Me</a></li>
-						<li><a href="#" class="menu-item">Contact</a></li>
+						<li><a href="about-me.php#contact" class="menu-item">Contact</a></li>
 						<!--portfolio will go here-->
 					</ul>
 				</div>
@@ -87,10 +89,10 @@ minor: hover-over of menu still blue-->
 			</div>
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
-					<a class="btn btn-default btn-lg center-block" href="#" role="button">About Me</a>
+					<a class="btn btn-default btn-lg center-block btn-block" href="about-me.php" role="button">About Me</a>
 				</div>
 				<div class="col-md-5">
-					<a class="btn btn-default btn-lg center-block" href="#" role="button">Portfolio</a>
+					<a class="btn btn-default btn-lg center-block btn-block" href="#" role="button">Portfolio</a>
 				</div>
 			</div>
 		</div>
