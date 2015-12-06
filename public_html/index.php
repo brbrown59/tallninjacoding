@@ -58,7 +58,7 @@
 				</div>
 			</nav>
 		</header>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="text-center">Bradley Brown</h1>
@@ -72,15 +72,15 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<p>Full stack web development; responsive, mobile-first designs with something something backend</p>
+					<h3>Full stack web development; responsive, mobile-first designs with something something backend</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
-					<p>About Me</p>
+				<div class="col-md-5 col-md-offset-1">
+					<a class="btn btn-default btn-lg center-block" href="#" role="button">About Me</a>
 				</div>
-				<div class="col-md-6">
-					<p>portfolio, again, button</p>
+				<div class="col-md-5">
+					<a class="btn btn-default btn-lg center-block" href="#" role="button">Portfolio</a>
 				</div>
 			</div>
 		</div>
