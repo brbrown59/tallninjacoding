@@ -4,6 +4,7 @@ b. button color locked as-is (not end of world; looks ok)
 c. buttons jammed together in phone view
 d. general spacing issues?
 e. content
+f. get a better picture of me
 
 minor: hover-over of menu still blue-->
 

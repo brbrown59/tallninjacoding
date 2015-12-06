@@ -41,7 +41,8 @@
 						<div class="dropdown">
 							<!--hamburger not showing up on xs for some reason, possibly change-->
 							<!--NO navbars show up on xs-->
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="index.php" class="menu-item">Home</a></li>
 								<li><a href="#" class="menu-item">About Me</a></li>
@@ -58,3 +59,26 @@
 				</div>
 			</nav>
 		</header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="text-center">About Me</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/headshot.jpg" class="img-responsive center-block" alt="filler picture"/>
+				</div>
+				<div class="col-md-8">
+					<h2 class="text-center">Relevant Skills</h2>
+					<p class="text-center">php, mySQL, JavaScript, angular.js, CSS, HTML5</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>In-depth stuff about me (CS degree, bootcamp, rough summary of my abilities, etc)</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
