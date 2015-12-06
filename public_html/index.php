@@ -36,21 +36,24 @@
 					<a class="navbar-brand" href="index.php">tallninjacoding</a>
 				</div>
 				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right visible-md-block visible-lg-block">
-						<li><a href="index.php">Home</a></li>
-						<li><a href="#">About Me</a></li>
-						<li><a href="#">Contact</a></li>
-						<!--portfolio will go here-->
-					</ul>
-					<ul class="nav navbar-nav navbar-right visible-xs-block visible-sm-block">
+					<!--hamburger dropdown for phones-->
+					<ul class="nav navbar-nav navbar-right hidden-md hidden-lg">
 						<div class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span><span class="caret"></span></a>
-							<!--not showing up on xs for some reason-->
+							<!--hamburger not showing up on xs for some reason, possibly change-->
+							<!--NO navbars show up on xs-->
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="index.php">Home</a></li>
 								<li><a href="#">About Me</a></li>
 								<li><a href="#">Contact</a></li>
 						</div>
+					</ul>
+					<!--standard navbar for desktop-->
+					<ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+						<li><a href="index.php">Home</a></li>
+						<li><a href="#">About Me</a></li>
+						<li><a href="#">Contact</a></li>
+						<!--portfolio will go here-->
 					</ul>
 				</div>
 			</nav>
@@ -68,13 +71,13 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
-					<p>Full stack web development; responsive designs</p>
+				<div class="col-md-12 text-center">
+					<p>Full stack web development; responsive, mobile-first designs with something something backend</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<p>About Me, this should be a button or something</p>
+					<p>About Me</p>
 				</div>
 				<div class="col-md-6">
 					<p>portfolio, again, button</p>
