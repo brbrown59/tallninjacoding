@@ -1,3 +1,11 @@
+<!--things to fix:
+a. can't get any navbar-rights to appear at extra small sizes
+b. hover-over color of navbar is all hyperlink blue
+c. button color locked as-is (not end of world; looks ok)
+d. buttons jammed together in phone view
+e. general spacing issues?
+f. content-->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -34,8 +42,8 @@
 			<nav class="navbar">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="index.php">tallninjacoding</a>
-				</div>
-				<div class="collapse navbar-collapse">
+				</div> <!--maybe rest of navbar should be within this div?-->
+				<div class="collapse navbar-collapse"> <!--collapse might be the reason for the disappearing navs?-->
 					<!--hamburger dropdown for phones-->
 					<ul class="nav navbar-nav navbar-right hidden-md hidden-lg">
 						<div class="dropdown">
@@ -43,16 +51,16 @@
 							<!--NO navbars show up on xs-->
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="index.php">Home</a></li>
-								<li><a href="#">About Me</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="index.php" class="menu-item">Home</a></li>
+								<li><a href="#" class="menu-item">About Me</a></li>
+								<li><a href="#" class="menu-item">Contact</a></li>
 						</div>
 					</ul>
 					<!--standard navbar for desktop-->
 					<ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
-						<li><a href="index.php">Home</a></li>
-						<li><a href="#">About Me</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="index.php" class="menu-item">Home</a></li>
+						<li><a href="#" class="menu-item">About Me</a></li>
+						<li><a href="#" class="menu-item">Contact</a></li>
 						<!--portfolio will go here-->
 					</ul>
 				</div>
