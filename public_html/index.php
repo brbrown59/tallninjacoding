@@ -5,7 +5,6 @@ c. buttons jammed together in phone view
 d. general spacing issues?
 e. content
 f. get a better picture of me
-g. make forms smaller?
 h. footer?
 
 minor: hover-over of menu still blue-->
@@ -43,31 +42,24 @@ minor: hover-over of menu still blue-->
 	</head>
 	<body>
 		<header class="content-header">
-			<nav class="navbar">
+			<nav class="nav navbar">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="index.php">tallninjacoding</a>
-				</div> <!--maybe rest of navbar should be within this div?-->
-				<div class="collapse navbar-collapse"> <!--collapse might be the reason for the disappearing navs?-->
-					<!--hamburger dropdown for phones-->
-					<ul class="nav navbar-nav navbar-right hidden-md hidden-lg">
-						<div class="dropdown">
-							<!--hamburger not showing up on xs for some reason, possibly change-->
-							<!--NO navbars show up on xs-->
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="index.php" class="menu-item">Home</a></li>
-								<li><a href="about-me.php" class="menu-item">About Me</a></li>
-								<li><a href="about-me.php#contact" class="menu-item">Contact</a></li>
-						</div>
-					</ul>
-					<!--standard navbar for desktop-->
-					<ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-navbar"
+							  aria-expanded="false">
+						<span class="sr-only">Main Menu</span>
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+				</div>
+				​
+				​
+				<div class="collapse navbar-collapse navbar-right" id="my-navbar">
+					<ul class="nav navbar-nav">
 						<li><a href="index.php" class="menu-item">Home</a></li>
 						<li><a href="about-me.php" class="menu-item">About Me</a></li>
 						<li><a href="about-me.php#contact" class="menu-item">Contact</a></li>
-						<!--portfolio will go here-->
-					</ul>
 				</div>
+				</ul>
 			</nav>
 		</header>
 		<div class="container-fluid">
@@ -79,7 +71,8 @@ minor: hover-over of menu still blue-->
 			<!--image goes here, only on desktop screens-->
 			<div class="row">
 				<div class="col-md-12 visible-md-block visible-lg-block">
-					<img src="http://placekitten.com/g/1200/300" class="img-responsive center-block" alt="Temporary picture of a cat, meow"/>
+					<img src="http://placekitten.com/g/1200/300" class="img-responsive center-block"
+						  alt="Temporary picture of a cat, meow"/>
 				</div>
 			</div>
 			<div class="row">
