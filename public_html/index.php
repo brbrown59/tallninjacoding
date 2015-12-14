@@ -71,8 +71,8 @@ minor: hover-over of menu still blue-->
 			<!--image goes here, only on desktop screens-->
 			<div class="row">
 				<div class="col-md-12 visible-md-block visible-lg-block">
-					<img src="http://placekitten.com/g/1200/300" class="img-responsive center-block"
-						  alt="Temporary picture of a cat, meow"/>
+					<img src="img/coding_banner.png" class="img-responsive center-block"
+						  alt="Code on a laptop"/>
 				</div>
 			</div>
 			<div class="row">
