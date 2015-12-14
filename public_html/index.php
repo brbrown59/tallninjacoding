@@ -1,13 +1,3 @@
-<!--things to fix:
-a. can't get any navbar-rights to appear at extra small sizes
-b. button color locked as-is (not end of world; looks ok)
-c. buttons jammed together in phone view
-d. general spacing issues?
-e. content
-f. get a better picture of me
-h. footer?
-
-minor: hover-over of menu still blue-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -77,7 +67,7 @@ minor: hover-over of menu still blue-->
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h3>Full stack web development; responsive, mobile-first designs with something something backend</h3>
+					<h3>Full stack web development; responsive, mobile-first designs etc.</h3>
 				</div>
 			</div>
 			<div class="row">
