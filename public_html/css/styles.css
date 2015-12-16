@@ -16,13 +16,22 @@
 }
 
 .menu-item:hover {
-	color: #141414;
-	background-color: #C9C9C9;
+	color: #141414 !important;
+	background-color: #C9C9C9 !important;
 }
 
 .glyphicon-menu-hamburger {
 	color: #C9C9C9;
 	font-size: x-large;
+}
+
+.description {
+	padding: 20px;
+}
+
+.btn-default {
+	color: #141414 !important;
+	background-color: #C9C9C9;
 }
 
 body {

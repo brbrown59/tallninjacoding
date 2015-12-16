@@ -67,7 +67,8 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h3>Full stack web development; responsive, mobile-first designs etc.</h3>
+					<h3>Full stack web development</h3>
+					<h4>Mobile friendly website design with secure, robust backend development</h4>
 				</div>
 			</div>
 			<div class="row">

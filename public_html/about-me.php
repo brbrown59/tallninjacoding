@@ -53,32 +53,38 @@
 		</header>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12">
-					<h1 class="text-center">About Me</h1>
+				<div class="col-md-8 col-md-offset-4">
+					<h1>About Me</h1>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-2 col-md-offset-2">
-					<img src="img/headshot.jpg" class="img-responsive center-block" alt="filler picture"/>
+					<img src="img/headshot.jpg" class="img-responsive center-block" alt="my picture"/>
 				</div>
 				<div class="col-md-8">
-					<h2 class="text-center">Relevant Skills</h2>
-					<ul>
-						<li>php</li>
-						<li>Javascript</li>
-						<li>angular.js</li>
-						<li>mySQL</li>
-						<li>CSS</li>
-						<li>HTML5</li>
-						<li>Bootstrap</li>
-						<li>Java</li>
-						<li>C</li>
-						<li>C++</li>
-					</ul>
+					<h2>Relevant Skills</h2>
+					<div class="col-md-4">
+						<ul>
+							<li>php</li>
+							<li>Javascript</li>
+							<li>angular.js</li>
+							<li>mySQL</li>
+							<li>CSS</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li>HTML5</li>
+							<li>Bootstrap</li>
+							<li>Java</li>
+							<li>C</li>
+							<li>C++</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-md-12 text-center description">
 					<p>In-depth stuff about me (CS degree, bootcamp, rough summary of my abilities, etc)</p>
 				</div>
 			</div>
