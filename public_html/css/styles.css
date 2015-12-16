@@ -29,9 +29,13 @@
 	padding: 20px;
 }
 
-.btn-default {
-	color: #141414 !important;
-	background-color: #C9C9C9;
+.btn-info {
+	color: #000000 !important;
+	background-color: #C9C9C9 !important;
+}
+
+.home-picture {
+	padding: 10px;
 }
 
 body {

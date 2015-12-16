@@ -60,7 +60,7 @@
 			</div>
 			<!--image goes here, only on desktop screens-->
 			<div class="row">
-				<div class="col-md-12 visible-md-block visible-lg-block">
+				<div class="col-md-12 visible-md-block visible-lg-block home-picture">
 					<img src="img/coding_banner.png" class="img-responsive center-block"
 						  alt="Code on a laptop"/>
 				</div>
