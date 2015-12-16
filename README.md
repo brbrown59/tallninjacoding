@@ -11,3 +11,9 @@ Awesome work here. All points have been covered in detail, and you have a clear 
 Awesome job - your Milestone 3 passes at Tier IV. Go ahead and begin development on your PWP. The layouts you have detailed should be a breeze with Bootstrap. :-)
 
 If you'd like to explore the portfolio gallery, take a look at [Swipebox](http://brutaldesign.github.io/swipebox/). A number of students have used it to create galleries with good results, and it's mobile friendly.
+
+## Milestone 4 Feedback
+Just a bit more polish and content and you are off to a great start. If you don't yet have swiftmailer installed, take a look at [Sending Email in PHP](https://bootcamp-coders.cnm.edu/class-materials/php/email/).
+
+### Suggestions
+- When you deploy to A Small Orange, use CPanel to set the Document Root to your /public_html directory.
