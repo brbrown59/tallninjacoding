@@ -53,7 +53,7 @@
 		</header>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-4">
+				<div class="col-md-4 col-md-offset-5">
 					<h1>About Me</h1>
 				</div>
 			</div>
