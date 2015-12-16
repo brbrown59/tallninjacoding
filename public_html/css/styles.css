@@ -6,9 +6,18 @@
 .navbar-brand {
 	color: #C9C9C9;
 }
+.navbar-brand:hover {
+	color: #141414;
+	background-color: #C9C9C9;
+}
 
 .menu-item {
 	color: #C9C9C9;
+}
+
+.menu-item:hover {
+	color: #141414;
+	background-color: #C9C9C9;
 }
 
 .glyphicon-menu-hamburger {
@@ -19,4 +28,5 @@
 body {
 	color: #C9C9C9;
 	background-color: #282828;
+
 }

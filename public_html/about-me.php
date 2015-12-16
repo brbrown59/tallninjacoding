@@ -71,6 +71,9 @@
 						<li>CSS</li>
 						<li>HTML5</li>
 						<li>Bootstrap</li>
+						<li>Java</li>
+						<li>C</li>
+						<li>C++</li>
 					</ul>
 				</div>
 			</div>
