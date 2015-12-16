@@ -63,6 +63,7 @@
 				</div>
 				<div class="col-md-8">
 					<h2>Relevant Skills</h2>
+
 					<div class="col-md-4">
 						<ul>
 							<li>php</li>
@@ -93,17 +94,20 @@
 					<h2 id="contact">Contact</h2>
 				</div>
 			</div>
-			<form action="mail.php" method="post">
-				<div class="form-group">
-					<label for="emailform">Email address</label>
-					<input type="email" name="email" class="form-control" id="emailform" placeholder="Email">
-				</div>
-				<div class="form-group">
-					<label for="messagefield">Message</label>
-					<textarea class="form-control" id="messagefield" name="content" rows="3" placeholder="Message"></textarea>
-				</div>
-				<button type="submit" name="submit" class="btn btn-default">Submit</button>
-			</form>
+			<div class="col-md-6 col-md-offset-3">
+				<form action="mail.php" method="post">
+					<div class="form-group">
+						<label for="emailform">Email address</label>
+						<input type="email" name="email" class="form-control" id="emailform" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="messagefield">Message</label>
+						<textarea class="form-control" id="messagefield" name="content" rows="3"
+									 placeholder="Message"></textarea>
+					</div>
+					<button type="submit" name="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
 		</div>
 	</body>
 </html>
