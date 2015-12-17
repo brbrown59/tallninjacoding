@@ -53,60 +53,76 @@
 		</header>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4 col-md-offset-5">
+				<div class="col-md-12 text-center">
 					<h1>About Me</h1>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-2 col-md-offset-2">
-					<img src="img/headshot.jpg" class="img-responsive img-circle center-block" alt="my picture"/>
-				</div>
-				<div class="col-md-8">
-					<h2>Relevant Skills</h2>
-					<div class="col-md-4">
-						<ul>
-							<li>php</li>
-							<li>Javascript</li>
-							<li>angular.js</li>
-							<li>mySQL</li>
-							<li>CSS</li>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<ul>
-							<li>HTML5</li>
-							<li>Bootstrap</li>
-							<li>Java</li>
-							<li>C</li>
-							<li>C++</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center description">
-					<p class="summary">CONTENT</p>
+				<div class="col-md-12">
+					<img src=" img/headshot.jpg" class="img-responsive img-circle center-block" alt="my picture"/>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h2 id="contact">Contact</h2>
+					<h2>Relevant Skills</h2>
 				</div>
 			</div>
-			<div class="col-md-6 col-md-offset-3">
-				<form action="about-me.php" method="post">
-					<div class="form-group">
-						<label for="emailform">Email address</label>
-						<input type="email" name="email" class="form-control" id="emailform" placeholder="Email">
-					</div>
-					<div class="form-group">
-						<label for="messagefield">Message</label>
+			<div class="row">
+				<div class="col-md-3 col-md-offset-3">
+					<ul>
+						<li>php</li>
+						<li>Javascript</li>
+						<li>angular.js</li>
+						<li>mySQL</li>
+						<li>CSS</li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-md-offset-2">
+					<ul>
+						<li>HTML5</li>
+						<li>Bootstrap</li>
+						<li>Java</li>
+						<li>C</li>
+						<li>C++</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center description">
+				<h2>Education</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h4>Deep Dive Coding Bootcamp, CNM Stemulus Center - Graduated December 2015</h4>
+				<p></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h4>New Mexico Institute of Mining and Technology</h4>
+			</div>
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2 id="contact">Contact</h2>
+			</div>
+		</div>
+		<div class="col-md-6 col-md-offset-3">
+			<form action="about-me.php" method="post">
+				<div class="form-group">
+					<label for="emailform">Email address</label>
+					<input type="email" name="email" class="form-control" id="emailform" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<label for="messagefield">Message</label>
 						<textarea class="form-control" id="messagefield" name="content" rows="3"
 									 placeholder="Message"></textarea>
-					</div>
-					<button type="submit" name="submit" class="btn btn-default">Submit</button>
-				</form>
-			</div>
+				</div>
+				<button type="submit" name="submit" class="btn btn-default">Submit</button>
+			</form>
 		</div>
 	</body>
 </html>
@@ -120,7 +136,7 @@
 
 require_once(dirname(__DIR__) . "/vendor/autoload.php");
 
-if (empty($_POST["email"]) === false && empty($_POST["content"]) === false) {
+if(empty($_POST["email"]) === false && empty($_POST["content"]) === false) {
 	try {
 
 		//compose and send the email
