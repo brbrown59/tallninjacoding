@@ -29,9 +29,11 @@
 	padding: 20px;
 }
 
+
 .btn-default {
 	color: #000000 !important;
 	background-color: #C9C9C9 !important;
+	margin: 20px;
 }
 
 .home-picture {

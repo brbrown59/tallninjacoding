@@ -73,10 +73,10 @@
 			</div>
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
-					<a class="btn btn-default btn-lg center-block btn-block" href="about-me.php" role="button">About Me</a>
+					<a class="btn btn-default btn-lg btn-block" href="about-me.php" role="button">About Me</a>
 				</div>
 				<div class="col-md-5">
-					<a class="btn btn-default btn-lg center-block btn-block" href="#" role="button">Portfolio</a>
+					<a class="btn btn-default btn-lg btn-block" href="#" role="button">Portfolio</a>
 				</div>
 			</div>
 		</div>
