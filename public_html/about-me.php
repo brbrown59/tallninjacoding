@@ -27,6 +27,10 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
 				  integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
 				  crossorigin="anonymous"></script>
+
+		<!--google fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+
 		<title>tallninjacoding</title>
 	</head>
 	<body>
@@ -62,6 +66,7 @@
 					<img src=" img/headshot.jpg" class="img-responsive img-circle center-block" alt="my picture"/>
 				</div>
 			</div>
+			<hr />
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<h2>Relevant Skills</h2>
@@ -69,7 +74,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-md-offset-3">
-					<ul>
+					<ul class="skills">
 						<li>php</li>
 						<li>Javascript</li>
 						<li>angular.js</li>
@@ -78,8 +83,8 @@
 					</ul>
 				</div>
 				<div class="col-md-3 col-md-offset-2">
-					<ul>
-						<li>HTML5</li>
+					<ul class="skills">
+						<li class="skills">HTML5</li>
 						<li>Bootstrap</li>
 						<li>Java</li>
 						<li>C</li>
@@ -88,23 +93,56 @@
 				</div>
 			</div>
 		</div>
+		<hr />
 		<div class="row">
 			<div class="col-md-12 text-center description">
 				<h2>Education</h2>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12">
-				<h4>Deep Dive Coding Bootcamp, CNM Stemulus Center - Graduated December 2015</h4>
-				<p></p>
+			<div class="col-md-8 col-md-offset-3">
+				<h3>Deep Dive Coding Bootcamp, CNM Stemulus Center - Albuquerque, NM</h3>
+
+				<h4>December 2015</h4>
+				<ul>
+
+				<li>Focus on secure, responsive, mobile-first web application development</li>
+
+				<li>As a team capstone project, developed <a
+						href="https://bootcamp-coders.cnm.edu/~bbrown52/bread-basket/public_html/php/template/home.php">Bread
+						Basket</a>: a web application connecting grocery stores and restaurants with excess food to food banks
+					and shelters in need</li>
+				</ul>
+
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12">
-				<h4>New Mexico Institute of Mining and Technology</h4>
+			<div class="col-md-8 col-md-offset-3">
+				<h3>New Mexico Institute of Mining and Technology - Socorro, NM</h3>
+
+				<h4>Bachelor of Science, Computer Science, with Honors - May 2009</h4>
+
+				<h4>Course Highlights</h4>
+
+				<div class="col-md-3">
+					<ul>
+						<li>Secure Software Construction</li>
+						<li>Software Engineering</li>
+						<li>Design and Analysis of Algorithms</li>
+						<li>Systems Programming</li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-md-offset-4">
+					<ul>
+						<li>Introduction to Database Systems</li>
+						<li>Data and Computer Communication</li>
+						<li>Cryptography and Applications</li>
+						<li>Computer Graphics</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		</div>
+		<hr />
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<h2 id="contact">Contact</h2>
