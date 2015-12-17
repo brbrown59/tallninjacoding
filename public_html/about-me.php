@@ -29,7 +29,7 @@
 				  crossorigin="anonymous"></script>
 
 		<!--google fonts-->
-		<link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen|Montserrat:700' rel='stylesheet' type='text/css'>
 
 		<title>tallninjacoding</title>
 	</head>
@@ -206,11 +206,11 @@ if(empty($_POST["email"]) === false && empty($_POST["content"]) === false) {
 		}
 
 // report a successful send
-		echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
+		echo "<div class=\"alert alert-success\ col-md-6 col-md-offset-3\" role=\"alert\">Email successfully sent.</div>";
 
 
 	} catch(Exception $exception) {
-		echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oops!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
+		echo "<div class=\"alert alert-danger\ col-md-6 col-md-offset-3\" role=\"alert\"><strong>Oops!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
 	}
 
 	$basePath = $_SERVER["SCRIPT_NAME"];

@@ -30,7 +30,7 @@
 				  crossorigin="anonymous"></script>
 
 		<!--google fonts-->
-		<link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
 		<title>tallninjacoding</title>
 	</head>
@@ -69,10 +69,10 @@
 						  alt="Code on a laptop"/>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row">t
 				<div class="col-md-12 text-center">
 					<h3>Full stack web development</h3>
-					<h4>Mobile friendly website design with secure, robust backend development</h4>
+					<h4>Mobile friendly website design with secure, robust backends</h4>
 				</div>
 			</div>
 			<div class="row">
