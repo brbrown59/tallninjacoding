@@ -29,6 +29,9 @@
 	padding: 20px;
 }
 
+.summary {
+	margin: 30px;
+}
 
 .btn-default {
 	color: #000000 !important;
@@ -43,5 +46,4 @@
 body {
 	color: #C9C9C9;
 	background-color: #282828;
-
 }

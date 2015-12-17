@@ -59,11 +59,10 @@
 			</div>
 			<div class="row">
 				<div class="col-md-2 col-md-offset-2">
-					<img src="img/headshot.jpg" class="img-responsive center-block" alt="my picture"/>
+					<img src="img/headshot.jpg" class="img-responsive img-circle center-block" alt="my picture"/>
 				</div>
 				<div class="col-md-8">
 					<h2>Relevant Skills</h2>
-
 					<div class="col-md-4">
 						<ul>
 							<li>php</li>
@@ -86,7 +85,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center description">
-					<p>In-depth stuff about me (CS degree, bootcamp, rough summary of my abilities, etc)</p>
+					<p class="summary">CONTENT</p>
 				</div>
 			</div>
 			<div class="row">
