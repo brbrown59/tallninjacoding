@@ -80,7 +80,7 @@
 					<a class="btn btn-default btn-lg btn-block" href="about-me.php" role="button">About Me</a>
 				</div>
 				<div class="col-md-5">
-					<a class="btn btn-default btn-lg btn-block" href="#" role="button">Portfolio</a>
+					<a class="btn btn-default btn-lg btn-block" href="#" role="button">Portfolio (Coming Soon)</a>
 				</div>
 			</div>
 		</div>
