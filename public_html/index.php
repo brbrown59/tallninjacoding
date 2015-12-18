@@ -69,7 +69,7 @@
 						  alt="Code on a laptop"/>
 				</div>
 			</div>
-			<div class="row">t
+			<div class="row">
 				<div class="col-md-12 text-center">
 					<h3>Full stack web development</h3>
 					<h4>Mobile friendly website design with secure, robust backends</h4>
